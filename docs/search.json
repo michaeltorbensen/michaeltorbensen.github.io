@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Projects",
+    "section": "",
+    "text": "some content here"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -14,23 +21,16 @@
     "text": "Hey! My name is Michael Torbensen. I’m a fourth-year Environmental Science (BS) major at UC Santa Barbara that transferred over from Santa Barbara City College (SBCC) where I obtained by AS in Environmental Science."
   },
   {
-    "objectID": "photos.html",
-    "href": "photos.html",
-    "title": "photos",
-    "section": "",
-    "text": "some content here"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Projects",
-    "section": "",
-    "text": "some content here"
-  },
-  {
     "objectID": "CA-camping.html",
     "href": "CA-camping.html",
     "title": "CA-camping",
+    "section": "",
+    "text": "some content here"
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "photos",
     "section": "",
     "text": "some content here"
   }
