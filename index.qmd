@@ -3,7 +3,7 @@ title: "Michael Kjær Torbensen"
 image: michael.jpeg
 toc: false
 about:
-  template: trestles
+  template: solana
   image-shape: rounded
   image-width: 17em
   links:
