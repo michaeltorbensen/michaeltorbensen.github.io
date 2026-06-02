@@ -1,5 +1,4 @@
 ---
 title: "CA-camping"
-format: html
 ---
 

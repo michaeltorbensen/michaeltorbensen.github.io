@@ -1,5 +1,4 @@
 ---
 title: "photos"
-format: html
 ---
 
