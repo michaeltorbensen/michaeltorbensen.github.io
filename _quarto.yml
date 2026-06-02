@@ -10,12 +10,14 @@ website:
         text: Home
       - about.qmd
       - resources.qmd
+      - CA-camping.qmd
+      - photos.qmd
 
 format:
   html:
     theme: morph
     css: styles.css
-    toc: true
+    toc: TRUE
     page-layout: full
 
 

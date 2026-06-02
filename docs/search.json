@@ -19,5 +19,19 @@
     "title": "photos",
     "section": "",
     "text": "some content here"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Projects",
+    "section": "",
+    "text": "some content here"
+  },
+  {
+    "objectID": "CA-camping.html",
+    "href": "CA-camping.html",
+    "title": "CA-camping",
+    "section": "",
+    "text": "some content here"
   }
 ]
