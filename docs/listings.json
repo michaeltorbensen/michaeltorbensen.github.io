@@ -1,6 +1,10 @@
 [
   {
     "listing": "/resources.html",
-    "items": []
+    "items": [
+      "/Projects/research/index.html",
+      "/Projects/biology/index.html",
+      "/Projects/conservation/index.html"
+    ]
   }
 ]

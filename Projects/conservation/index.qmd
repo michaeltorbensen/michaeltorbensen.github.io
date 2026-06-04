@@ -1,0 +1,5 @@
+---
+title: "White Abalone Conservation in the Santa Barbara Channel"
+description: "This project was completed under the supervision of Dawn Murray, one of the most wonderful professors at UCSB. My team of 5 pursued the goal of coming up with a feasable plan to help conserve the White Abalone population in the Southern California bight. This took almost 6 out of the total 11 weeks in the quarter. "
+image: abalone.jpeg
+---

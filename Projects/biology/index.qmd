@@ -1,0 +1,5 @@
+---
+title: "Effect of pH on Tyrosinase Activity Using a Spectrophotometric Assay"
+description: "This project was a science poster that we had to mock up in an intro biology lab. Although it's not much, I put a large amount of time and research into this and received great feedback from my professor!"
+image: biology_image.jpeg
+---
