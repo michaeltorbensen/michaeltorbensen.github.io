@@ -1,5 +1,27 @@
 ---
 title: "Photos"
+format:
+  html:
+    lightbox: TRUE
 ---
 
-some content here 
+![Lake Virginia in John Muir Wilderness](muir1.jpeg){group="gallery"}
+![Guitar Lake under Mount Whitney](muir6.jpeg){group="gallery"}
+![Rose shot through glass pyramid](BW2.jpg){group="gallery"}
+![Dazy desert clouds](cloud1.jpg){group="gallery"}
+![Overview of rainbow wells in Mojave](BW1.jpg){group="gallery"}
+![Oh gloriful Garnet Lake](muir4.jpg){group="gallery"}
+![Purple needlegrass in the wind](flowers.jpg){group="gallery"}
+![KCL campground Carrizo Plains](Carrizo_plains.jpg){group="gallery"}
+![Major unconformity in santa ynez](geology.jpg){group="gallery"}
+![Lava caves in mojave desert](lava_cave.jpg){group="gallery"}
+![Desert Haze](cloud2.jpg){group="gallery"}
+![Seldon Pass looking down on Marie Lake](muir2.jpeg){group="gallery"}
+![Random cute cow](cow.jpg){group="gallery"}
+![Downy Prairie Clover](lava_plant.jpg){group="gallery"}
+![Ahh, just another day in sunny SB](lizard.jpg){group="gallery"}
+![The playground on Camino Cielo ](caminocielo.jpg){group="gallery"}
+![Dream a little dream of me](cloud3.jpeg){group="gallery"}
+![Traversing through snow in the John Muir Wilderness](muir3.jpeg){group="gallery"}
+![Quaking aspen trees entering fall](tree2.jpg){group="gallery"}
+![Meet Mr. Marmot the manly](muir5.jpeg){group="gallery"}
