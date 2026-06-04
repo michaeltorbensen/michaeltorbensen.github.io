@@ -1,27 +1,116 @@
 ---
 title: "Photos"
-format:
-  html:
-    lightbox: TRUE
+format: html
 ---
 
-![Lake Virginia in John Muir Wilderness](muir1.jpeg){group="gallery"}
-![Guitar Lake under Mount Whitney](muir6.jpeg){group="gallery"}
-![Rose shot through glass pyramid](BW2.jpg){group="gallery"}
-![Dazy desert clouds](cloud1.jpg){group="gallery"}
-![Overview of rainbow wells in Mojave](BW1.jpg){group="gallery"}
-![Oh gloriful Garnet Lake](muir4.jpg){group="gallery"}
-![Purple needlegrass in the wind](flowers.jpg){group="gallery"}
-![KCL campground Carrizo Plains](Carrizo_plains.jpg){group="gallery"}
-![Major unconformity in santa ynez](geology.jpg){group="gallery"}
-![Lava caves in mojave desert](lava_cave.jpg){group="gallery"}
-![Desert Haze](cloud2.jpg){group="gallery"}
-![Seldon Pass looking down on Marie Lake](muir2.jpeg){group="gallery"}
-![Random cute cow](cow.jpg){group="gallery"}
-![Downy Prairie Clover](lava_plant.jpg){group="gallery"}
-![Ahh, just another day in sunny SB](lizard.jpg){group="gallery"}
-![The playground on Camino Cielo ](caminocielo.jpg){group="gallery"}
-![Dream a little dream of me](cloud3.jpeg){group="gallery"}
-![Traversing through snow in the John Muir Wilderness](muir3.jpeg){group="gallery"}
-![Quaking aspen trees entering fall](tree2.jpg){group="gallery"}
-![Meet Mr. Marmot the manly](muir5.jpeg){group="gallery"}
+```{=html}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Libre+Baskerville&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+.gallery-wrap{padding:2rem 0;font-family:'Libre Baskerville',serif}
+.gallery-header{margin-bottom:2rem}
+.gallery-header h1{font-family:'Playfair Display',serif;font-size:2rem;font-weight:400;font-style:italic;color:var(--color-text-primary);letter-spacing:0.01em}
+.gallery-header p{font-size:13px;color:var(--color-text-secondary);margin-top:6px;letter-spacing:0.08em;text-transform:uppercase}
+.masonry{columns:3;column-gap:10px}
+@media(max-width:600px){.masonry{columns:2}}
+.photo-item{break-inside:avoid;margin-bottom:10px;position:relative;overflow:hidden;border-radius:6px;cursor:pointer}
+.photo-item img{width:100%;display:block;transition:transform 0.5s ease;border-radius:6px}
+.photo-item:hover img{transform:scale(1.03)}
+.photo-item .overlay{position:absolute;bottom:0;left:0;right:0;padding:12px;background:linear-gradient(transparent,rgba(0,0,0,0.55));opacity:0;transition:opacity 0.3s ease;border-radius:0 0 6px 6px}
+.photo-item:hover .overlay{opacity:1}
+.overlay span{color:#fff;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;font-family:'Libre Baskerville',serif}
+.lightbox{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);z-index:999;align-items:center;justify-content:center;flex-direction:column}
+.lightbox.active{display:flex}
+.lightbox img{max-width:88vw;max-height:80vh;object-fit:contain;border-radius:4px}
+.lightbox .caption{color:rgba(255,255,255,0.7);font-size:12px;margin-top:14px;letter-spacing:0.08em;text-transform:uppercase;font-family:'Libre Baskerville',serif}
+.lightbox .close{position:absolute;top:20px;right:24px;color:#fff;font-size:28px;cursor:pointer;opacity:0.7;font-family:sans-serif;line-height:1}
+.lightbox .close:hover{opacity:1}
+</style>
+
+<div class="gallery-wrap">
+  <div class="gallery-header">
+    <h1>Into the Wild</h1>
+    <p>California &mdash; Field Notes in Light</p>
+  </div>
+  <div class="masonry">
+    <div class="photo-item" onclick="openLight('muir1.jpeg','Lake Virginia, John Muir Wilderness')">
+      <img src="muir1.jpeg" alt="Lake Virginia"><div class="overlay"><span>Lake Virginia</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('muir6.jpeg','Guitar Lake under Mount Whitney')">
+      <img src="muir6.jpeg" alt="Guitar Lake"><div class="overlay"><span>Guitar Lake</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('BW2.jpg','Rose shot through glass pyramid')">
+      <img src="BW2.jpg" alt="Rose"><div class="overlay"><span>Rose through glass</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('cloud1.jpg','Dazy desert clouds')">
+      <img src="cloud1.jpg" alt="Desert clouds"><div class="overlay"><span>Desert clouds</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('BW1.jpg','Rainbow Wells, Mojave')">
+      <img src="BW1.jpg" alt="Rainbow Wells"><div class="overlay"><span>Rainbow Wells</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('muir4.jpg','Garnet Lake')">
+      <img src="muir4.jpg" alt="Garnet Lake"><div class="overlay"><span>Garnet Lake</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('flowers.jpg','Purple needlegrass in the wind')">
+      <img src="flowers.jpg" alt="Purple needlegrass"><div class="overlay"><span>Purple needlegrass</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('Carrizo_plains.jpg','KCL Campground, Carrizo Plains')">
+      <img src="Carrizo_plains.jpg" alt="Carrizo Plains"><div class="overlay"><span>Carrizo Plains</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('geology.jpg','Major unconformity, Santa Ynez')">
+      <img src="geology.jpg" alt="Geology"><div class="overlay"><span>Santa Ynez Unconformity</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('lava_cave.jpg','Lava caves, Mojave Desert')">
+      <img src="lava_cave.jpg" alt="Lava caves"><div class="overlay"><span>Lava Caves</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('cloud2.jpg','Desert Haze')">
+      <img src="cloud2.jpg" alt="Desert haze"><div class="overlay"><span>Desert Haze</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('muir2.jpeg','Seldon Pass, Marie Lake')">
+      <img src="muir2.jpeg" alt="Seldon Pass"><div class="overlay"><span>Seldon Pass</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('cow.jpg','Random cute cow')">
+      <img src="cow.jpg" alt="Cow"><div class="overlay"><span>Random cute cow</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('lava_plant.jpg','Downy Prairie Clover')">
+      <img src="lava_plant.jpg" alt="Prairie Clover"><div class="overlay"><span>Downy Prairie Clover</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('lizard.jpg','Sunny Santa Barbara')">
+      <img src="lizard.jpg" alt="Lizard"><div class="overlay"><span>Sunny SB</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('caminocielo.jpg','Camino Cielo')">
+      <img src="caminocielo.jpg" alt="Camino Cielo"><div class="overlay"><span>Camino Cielo</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('cloud3.jpeg','Dream a little dream')">
+      <img src="cloud3.jpeg" alt="Clouds"><div class="overlay"><span>Dream a little dream</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('muir3.jpeg','Snow in John Muir Wilderness')">
+      <img src="muir3.jpeg" alt="Snow"><div class="overlay"><span>John Muir Wilderness</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('tree2.jpg','Quaking aspens in fall')">
+      <img src="tree2.jpg" alt="Aspens"><div class="overlay"><span>Quaking Aspens</span></div>
+    </div>
+    <div class="photo-item" onclick="openLight('muir5.jpeg','Mr. Marmot')">
+      <img src="muir5.jpeg" alt="Marmot"><div class="overlay"><span>Mr. Marmot</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLight()">
+  <div class="close" onclick="closeLight()">&times;</div>
+  <img id="lightbox-img" src="" alt="">
+  <div class="caption" id="lightbox-cap"></div>
+</div>
+
+<script>
+function openLight(src,cap){
+  var lb=document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src=src;
+  document.getElementById('lightbox-cap').textContent=cap;
+  lb.classList.add('active');
+}
+function closeLight(){
+  document.getElementById('lightbox').classList.remove('active');
+}
+</script>
+```
