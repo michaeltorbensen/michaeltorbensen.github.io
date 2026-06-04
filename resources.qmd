@@ -1,5 +1,9 @@
 ---
 title: "Projects"
+format: html
+listing:
+  contents: 
+    - "Projects/*/index.qmd"
+  type: grid
 ---
-
-some content here 
+### Some of my past projects!
