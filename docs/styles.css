@@ -1,1 +1,28 @@
-/* css styles */
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+  text-align: left;
+  font-family: Georgia, serif;
+  color:#3B4D5B ;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Merriweather", serif;
+  color: #3B4D5B;
+}
+
+.navbar {
+  background-color: #3b4d5b !important;
+}
+
+.navbar .nav-link,
+.navbar a,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #BDE0FE !important;
+}

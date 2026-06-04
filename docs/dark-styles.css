@@ -1,0 +1,11 @@
+/*-- scss:rules --*/
+body {
+  text-align: left;
+  font-family: Georgia, serif;
+  color: #f0f4ff;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Merriweather", serif;
+  color: #f0f4ff;
+}

@@ -12,11 +12,13 @@ website:
       - resources.qmd
       - CA-camping.qmd
       - photos.qmd
+      - resume.qmd
 
 format:
   html:
-    theme: morph
-    css: styles.css
+    theme:
+      light: [minty, styles.css]
+      dark: [superhero, dark-styles.css]
     toc: TRUE
     page-layout: full
 
