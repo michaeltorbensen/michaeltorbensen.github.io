@@ -1,5 +1,22 @@
 ---
 title: "About Me"
+toc: TRUE
+css: [styles.css, dark-styles.css]
 ---
 
-Let's get started on who Having been raised in a beach town, my drive to conserve and protect the environment has been exemplified. This undying passion has led to my current trajectory of narrowing my studies to rivers and conservation planning. I love to be outdoors and I love, even more, finding new ways to mitigate human impacts on natural systems and ecological systems. 
+
+## Background/Family
+
+<img src="siblings.jpeg" style="float: right; width: 47%;"> 
+My name is Michael, and yes just Michael because I have yet to resonate with Mike as a nickname. I grew up surrounded by a pretty large family which consisted of 3 lovely sisters (2 of which lived in Denmark until 2016) and 1 wicked brother, me being the youngest of all 5. My father, the viking Danish man, is an entrepreneur who lives for sailing while my mother, a beautiful Spanish woman, is a nurse who lives for her children. 
+
+
+## Life Outside of School
+
+
+
+
+
+## Career Goals 
+
+Having been raised in a beach town where environmental policy and regulations play a key role in shaping local laws, it drove my passion to conserve and protect the environment. This undying passion has led to my current trajectory of narrowing my studies to rivers and conservation planning. I love to be outdoors and I love, even more, finding new ways to mitigate human impacts on natural systems and ecological systems. 
