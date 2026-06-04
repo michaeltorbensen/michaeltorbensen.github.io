@@ -1,5 +1,38 @@
 ---
-title: "CA-camping"
+title: "California Camping"
+format: html
 ---
 
-some content here 
+```{r}
+#| echo: false
+library(leaflet)
+
+leaflet() |> 
+  addTiles() |> 
+  addMarkers(lat = 35.8739, lng = -118.4566,
+    popup = "<b>Gold Ledge Campground</b><br>Kernville, Tulare County<br><img src='images/kern.jpeg' width='200px'>") |> 
+  addMarkers(lat = 35.1899, lng = -119.8633,
+    popup = "<b>Carrizo Plain National Monument</b><br>Santa Margarita, CA<br><img src='images/carrizo.jpeg' width='200px'>") |> 
+  addMarkers(lat = 34.5602, lng = -119.1647,
+    popup = "<b>Sespe River - Piedra Blanca Trailhead</b><br>Ojai, CA<br><img src='images/sespe.jpeg' width='200px'>") |> 
+  addMarkers(lat = 33.9851, lng = -116.0172,
+    popup = "<b>White Tank Campground</b><br>Joshua Tree National Park<br><img src='images/joshua.jpeg' width='200px'>") |> 
+  addMarkers(lat = 33.0238, lng = -116.1100,
+    popup = "<b>Fish Creek Campground</b><br>Anza Borrego<br><img src='images/anza.jpeg' width='200px'>") |> 
+  addMarkers(lat = 35.6177, lng = -117.3681,
+    popup = "<b>Trona Pinnacles</b><br>San Bernardino County<br><img src='images/trona.jpeg' width='200px'>") |> 
+  addMarkers(lat = 34.910364, lng = -115.731281,
+    popup = "<b>Kelso Dunes</b><br>San Bernardino County<br><img src='images/mojave.jpg' width='200px'>") |> 
+  addMarkers(lat = 36.8879, lng = -118.5551,
+    popup = "<b>Kings Canyon National Park</b><br>Sierra Nevada, CA<br><img src='images/kings.jpeg' width='200px'>") |> 
+  addMarkers(lat = 37.5941, lng = -118.8486,
+    popup = "<b>Convict Lake Campground</b><br>Mono County, CA<br><img src='images/convict.jpg' width='200px'>") |> 
+  addMarkers(lat = 35.1323, lng = -120.6339,
+    popup = "<b>Pismo State Beach</b><br>Pismo Beach, CA<br><img src='images/pismo.jpeg' width='200px'>") |> 
+  addMarkers(lat = 34.3018, lng = -116.8956,
+    popup = "<b>Holcomb Valley Campground</b><br>Big Bear, CA<br><img src='images/holcomb.jpeg' width='200px'>") |> 
+  addMarkers(lat = 34.5547, lng = -119.7694,
+    popup = "<b>Upper Oso Campground</b><br>Paradise Rd, Santa Barbara<br><img src='images/oso.jpg' width='200px'>") |> 
+  addMarkers(lat = 34.5575, lng = -119.5577,
+    popup = "<b>Upper Caliente Camp</b><br>Santa Barbara County<br><img src='images/caliente.jpg' width='200px'>") 
+```
