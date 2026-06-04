@@ -3,3 +3,5 @@ title: "An Examination of Cigarette Pollution and Toxicity"
 description: "This was one of the first large papers I wrote at UCSB. Although it was my first, this paper has a lot of weight to it. As I started to research about my topic, I could not help but diving deeper and deeper. This was a great paper to give me a feel for what my first public research paper might look like "
 image: cigarette.jpeg
 ---
+
+<iframe src="Cigarette_Research.pdf" width="100%" height="600px"></iframe>
