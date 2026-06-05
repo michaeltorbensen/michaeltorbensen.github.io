@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 toc: TRUE
-css: [styles.css, dark-styles.css]
 ---
 
 
