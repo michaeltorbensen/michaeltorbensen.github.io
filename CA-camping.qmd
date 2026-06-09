@@ -10,29 +10,29 @@ library(leaflet)
 leaflet() |> 
   addTiles() |> 
   addMarkers(lat = 35.8739, lng = -118.4566,
-    popup = "<b>Gold Ledge Campground</b><br>Kernville, Tulare County<br><img src='images/kern.jpeg' width='200px'>") |> 
+    popup = "<b>Gold Ledge Campground</b><br>Kernville, Tulare County<br><img src='https://www.readysetpto.com/wp-content/uploads/2021/07/IMG_0338.jpg' width='200px'>") |> 
   addMarkers(lat = 35.1899, lng = -119.8633,
-    popup = "<b>Carrizo Plain National Monument</b><br>Santa Margarita, CA<br><img src='images/carrizo.jpeg' width='200px'>") |> 
+    popup = "<b>Carrizo Plain National Monument</b><br>Santa Margarita, CA<br><img src='https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/s/u/SuePollock_Carrizo_040817-6.jpg?crop=0%2C228%2C4000%2C2200&wid=2600&hei=1430&scl=1.5384615384615385' width='200px'>") |> 
   addMarkers(lat = 34.5602, lng = -119.1647,
-    popup = "<b>Sespe River - Piedra Blanca Trailhead</b><br>Ojai, CA<br><img src='images/sespe.jpeg' width='200px'>") |> 
+    popup = "<b>Sespe River - Piedra Blanca Trailhead</b><br>Ojai, CA<br><img src='https://www.hikespeak.com/img/LP/Sespe/Sespe_Creek_IMG_0160.jpg' width='200px'>") |> 
   addMarkers(lat = 33.9851, lng = -116.0172,
-    popup = "<b>White Tank Campground</b><br>Joshua Tree National Park<br><img src='images/joshua.jpeg' width='200px'>") |> 
+    popup = "<b>White Tank Campground</b><br>Joshua Tree National Park<br><img src='https://hipcamp-res.cloudinary.com/images/f_auto,c_limit,w_3840,q_auto/v1437854569/campground-photos/n7nywupovb7u1agyd2r3/joshua-tree-national-park-white-tank-campground.jpg' width='200px'>") |> 
   addMarkers(lat = 33.0238, lng = -116.1100,
-    popup = "<b>Fish Creek Campground</b><br>Anza Borrego<br><img src='images/anza.jpeg' width='200px'>") |> 
+    popup = "<b>Fish Creek Campground</b><br>Anza Borrego<br><img src='https://i1.wp.com/efoutfit.com/wp-content/uploads/IMG_3365-2.jpg?ssl=1&resize=480%2C480' width='200px'>") |> 
   addMarkers(lat = 35.6177, lng = -117.3681,
-    popup = "<b>Trona Pinnacles</b><br>San Bernardino County<br><img src='images/trona.jpeg' width='200px'>") |> 
+    popup = "<b>Trona Pinnacles</b><br>San Bernardino County<br><img src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b4/98/67/photo1jpg.jpg?w=1200&h=-1&s=1' width='200px'>") |> 
   addMarkers(lat = 34.910364, lng = -115.731281,
-    popup = "<b>Kelso Dunes</b><br>San Bernardino County<br><img src='images/mojave.jpg' width='200px'>") |> 
+    popup = "<b>Kelso Dunes</b><br>San Bernardino County<br><img src='https://www.alltrails.com/mugen/image/location-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTI0OTY3MzE2LzdkNGQxNDhiZjE3NmI3YzdjNmEyMDM1N2Q5NmQ4YmUzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjEwODAiLCJoZWlnaHQiOiI3MDAiLCJmaXQiOiJjb3ZlciJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ%3D%3D&w=3840&q=90' width='200px'>") |> 
   addMarkers(lat = 36.8879, lng = -118.5551,
-    popup = "<b>Kings Canyon National Park</b><br>Sierra Nevada, CA<br><img src='images/kings.jpeg' width='200px'>") |> 
+    popup = "<b>Kings Canyon National Park</b><br>Sierra Nevada, CA<br><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9DSjO-1T8N9BbBv6wiEzSlJayFAVXWeOqg&s' width='200px'>") |> 
   addMarkers(lat = 37.5941, lng = -118.8486,
-    popup = "<b>Convict Lake Campground</b><br>Mono County, CA<br><img src='images/convict.jpg' width='200px'>") |> 
+    popup = "<b>Convict Lake Campground</b><br>Mono County, CA<br><img src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/98/30/e7/caption.jpg?w=900&h=500&s=1' width='200px'>") |> 
   addMarkers(lat = 35.1323, lng = -120.6339,
-    popup = "<b>Pismo State Beach</b><br>Pismo Beach, CA<br><img src='images/pismo.jpeg' width='200px'>") |> 
+    popup = "<b>Pismo State Beach</b><br>Pismo Beach, CA<br><img src='https://highway1roadtrip.com/wp-content/uploads/2020/05/Oceano-Nipomo-Coastline.jpg' width='200px'>") |> 
   addMarkers(lat = 34.3018, lng = -116.8956,
-    popup = "<b>Holcomb Valley Campground</b><br>Big Bear, CA<br><img src='images/holcomb.jpeg' width='200px'>") |> 
+    popup = "<b>Holcomb Valley Campground</b><br>Big Bear, CA<br><img src='https://preview.redd.it/holcomb-valley-pinnacles-tombstone-pit-v0-5kkqsrzkp38z.jpg?width=1080&crop=smart&auto=webp&s=0901b40be72e1c35631ce62b5173ce5c657c41e4' width='200px'>") |> 
   addMarkers(lat = 34.5547, lng = -119.7694,
-    popup = "<b>Upper Oso Campground</b><br>Paradise Rd, Santa Barbara<br><img src='images/oso.jpg' width='200px'>") |> 
+    popup = "<b>Upper Oso Campground</b><br>Paradise Rd, Santa Barbara<br><img src='https://www.lotsafunmaps.com/view_xs_webp.php?id=587' width='200px'>") |> 
   addMarkers(lat = 34.5575, lng = -119.5577,
-    popup = "<b>Upper Caliente Camp</b><br>Santa Barbara County<br><img src='images/caliente.jpg' width='200px'>") 
+    popup = "<b>Upper Caliente Camp</b><br>Santa Barbara County<br><img src='https://ep1.pinkbike.org/p4pb28212897/p4pb28212897.jpg' width='200px'>") 
 ```
